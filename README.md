@@ -1,9 +1,9 @@
-# DO400 Application Repository
+# Greeting console app
 
-This repository contains applications used in the Red Hat training DO400 -
-Red Hat DevOps Pipelines and Processes: CI/CD with Jenkins, Git, and Test Driven Development (TDD).
+Sample greeting service for DO400 course.
 
-## Issues
+Run server:
 
-Should you find any issues with the course applications, or have any general
-questions, file a new [issue](https://github.com/RedHatTraining/DO400-apps/issues/new).
+```sh
+$ npm start
+```
