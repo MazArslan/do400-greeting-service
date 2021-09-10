@@ -22,5 +22,13 @@ pipeline{
         }
 
         // Add the "Deploy" stage here
+	stage("deploy"){
+	    steps{
+		sh'''
+		   oc project sbftar-greetings
+		   oc start-build greeting-service --follow --wait
+		'''
+	    }
+	}
     }
 }
